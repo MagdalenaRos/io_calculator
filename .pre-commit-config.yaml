@@ -1,7 +1,8 @@
 repos:
-  - repo: https://github.com/pycqa/pylint
-    rev: v3.3.8
+  - repo: local
     hooks:
       - id: pylint
-        args:
-          - --fail-under=8.0
+        name: pylint
+        entry: py -3.12 -m pylint
+        language: system
+        types: [python]
