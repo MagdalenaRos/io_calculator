@@ -2,6 +2,8 @@
 import pytest
 from calculator import Calculator
 
+jakisblad
+
 def test_1():
     """Test for 0,0 (no division)"""
     mycalc  = Calculator(0, 0)
