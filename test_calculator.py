@@ -30,4 +30,3 @@ def test_zero_division():
     mycalc = Calculator(1, 0)
     with pytest.raises(ValueError):
         mycalc.divide()
-        
